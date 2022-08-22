@@ -1,0 +1,29 @@
+PODS:
+  - CodableModels (0.0.1)
+  - Kingfisher (6.3.1)
+  - Networking (0.0.1):
+    - CodableModels
+
+DEPENDENCIES:
+  - CodableModels (from `./Modules/CodableModels`)
+  - Kingfisher (~> 6.3.1)
+  - Networking (from `./Modules/Networking`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  CodableModels:
+    :path: "./Modules/CodableModels"
+  Networking:
+    :path: "./Modules/Networking"
+
+SPEC CHECKSUMS:
+  CodableModels: 016cd38773b28a72a22c18f8eb803a8c5950d44b
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Networking: 9818c5bf25ccfcecb197990b47a58528e05eb40f
+
+PODFILE CHECKSUM: e8394c4500d851a1e370d813b245c34c39904ce7
+
+COCOAPODS: 1.11.2
